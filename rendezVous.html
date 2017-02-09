@@ -1,0 +1,43 @@
+<html>
+
+<head>
+
+	<script type="text/javascript" src="js/my_js.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+
+</head>
+<title>Rendez Vous</title>
+<body>
+
+
+	<!-- Navbar --> 
+	<ul class="navbar">
+		<li class="menu"><a href="index.html">AutoStore</a></li>
+		<li class="menu"><a href="rendezVous.html">Rendez-Vous</a></li>
+		<li class="menu" style="float:right " ><a href="#" onclick="div_show()">Connexion</a></li>
+	</ul>
+
+	<!-- Connexion --> 
+
+	<div id="abc">
+		<div id="popupContact">
+			<form class="form1" action="#" id="form" method="post" name="form">
+				<img id="close" src="images/close.png" onclick ="div_hide()">
+				<h2>Connexion</h2>
+				<hr>
+				<input class="input1" id="email" name="email" placeholder="Email" type="text">
+				<input class="input1"id="motdepasse" name="motdepasse" placeholder="Mot de passe" type="text">
+				<a href="javascript:%20check_empty()" id="submit">Connexion</a>
+				<a href="inscription.html" id="inscription">Inscription</a>
+
+			</form>
+		</div>
+	</div>
+
+	<!-- Image/lien vers entretien ou reparation--> 
+	<a href="entretien.html"><img id="repair" src="images/repair_car.png"> </a>
+	<a href="reparation.html"><img id="repair2" src="images/repair_car.png"></a>
+
+
+</body>
+</html>
